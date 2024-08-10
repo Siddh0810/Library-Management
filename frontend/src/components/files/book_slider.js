@@ -7,7 +7,7 @@ export default function Home() {
 
     const [data, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
-    const apiKey = 'AIzaSyC9yZTML6bIv25caKuzNbK0WfALPsOLzwU'
+    const apiKey = ''//Enter your google API here
 
     useEffect(() => {
         async function fetchData() {
