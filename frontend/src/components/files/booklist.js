@@ -12,7 +12,7 @@ export default function BookList(props) {
         // Fetch books from Google Books API
         axios
             .get(
-                `https://www.googleapis.com/books/v1/volumes?q=bestseller&filter=paid-ebooks&orderBy=relevance&saleability=FOR_SALE&maxResults=40&key=AIzaSyCRBkgp9DwrAfNmYKXqQUI01RndS6fPfQM`
+                `https://www.googleapis.com/books/v1/volumes?q=bestseller&filter=paid-ebooks&orderBy=relevance&saleability=FOR_SALE&maxResults=40&key=''`
             )
             .then((response) => {
                 setBooks(response.data.items);
