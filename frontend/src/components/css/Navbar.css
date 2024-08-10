@@ -1,0 +1,42 @@
+/* Style for the navbar */
+.navbar {
+    background-color: #007acc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Style for the left-side buttons and logo */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the right-side buttons */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for all the buttons */
+  .navbar-button {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  /* Style for the buttons on hover */
+  .navbar-button:hover {
+    color: #00a74a;
+  }
+  
+  /* Style for the logo image */
+  .book {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,94 @@
+/* BookDetail.css */
+
+.book-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f3e7; /* Background color resembling an old book page */
+    border: 1px solid #d3d0c4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }  
+  /* .book-image-container {
+    flex: 1;
+    max-width: 20%;
+    text-align: center;
+  } */
+
+  .book-info-container {
+    flex: 1;
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  
+  .book-image {
+    height: auto;
+    width: 30%;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+    .bookimage {
+        object-fit: fill;}
+
+        
+    .book-info {
+        flex: 1;
+        max-width: 70%; /* Description takes up 60% of the box */
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+  
+  .book-title {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+    text-align: center;
+  }
+  
+  .book-author {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #555; /* Slightly darker text color */
+    text-align: center;
+  }
+  
+  .book-publisher {
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #777; /* Lighter text color */
+    text-align: center;
+  }
+  
+  .book-description {
+    font-family: 'Optima'; /* Change to your desired font */
+    font-size: 1.5rem; /* Adjust the font size */
+    line-height: 1.4; /* Adjust line spacing */
+    text-align:center; /* Properly align the description */
+    color: #333; /* Text color */
+  }
+  
+  .borrow-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .borrow-button:hover {
+    background-color: #0056b3;
+  }
+  

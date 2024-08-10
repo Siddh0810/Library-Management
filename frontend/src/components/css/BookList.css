@@ -1,0 +1,61 @@
+/* BookList.css */
+
+/* Body background */
+body {
+    background-color: #f5f5f5; /* Set your preferred background color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the book cards */
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  /* Style for each book card */
+  .book-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px; /* Adjust card width as needed */
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Style for book images */
+  .book-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for book titles */
+  .book-card h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Style for the "View Details" link */
+  .book-card a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007acc; /* Set your preferred button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .book-card a:hover {
+    background-color: #0056b3; /* Set your preferred button hover color */
+  }
+  

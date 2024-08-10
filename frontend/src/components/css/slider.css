@@ -1,0 +1,116 @@
+/* Define root-level variables */
+:root {
+    --dark-red: rgb(142, 69, 17);
+    --mainFont: 'Crimson Text', serif;
+}
+
+/* Common styles for card-like elements */
+.swiper-bed, .card {
+    margin-top: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    width: 12vw;
+    height: 40vh;
+    /* border: 2px solid var(--dark-red); */
+}
+
+.swiper-bed:hover, .card:hover {
+    transform: scale(1.012);
+}
+
+/* Styles for Splide.js slider */
+.splide__list {
+    height: 50vh;
+}
+
+.splide-container {
+    width: 45vw;
+   
+}
+
+.splide__arrow--prev {
+    left: 1em !important;
+}
+
+.splide__arrow--next {
+    right: 1em !important;
+}
+
+.splide__arrow svg {
+    fill: #000;
+    height: .7em !important;
+    width: .7em !important;
+}
+
+.splide__arrow {
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 4px;
+}
+
+/* .svg-container {
+    display: flex;
+} */
+
+.svg-container > span {
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+#splide01 {
+    width: 95vw;
+    height: 40vh;
+}
+
+/* Styles for specific elements within the card */
+.card :nth-child(4) {
+    font-weight: 600;
+    color: var(--dark-red);
+}
+
+.sci {
+    position: absolute;
+    top: 2vh;
+    width: 10vw;
+}
+
+.scidetail {
+    margin: 0 10px;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0;
+}
+
+.scibutton {
+    z-index: 1 !important;
+}
+
+.card:hover .sci .scidetail {
+    transform: translateY(10px);
+    opacity: 1 !important;
+}
+
+.Card-Body:hover {
+    filter: brightness(50%);
+}
+
+/* Background and title styles for cards */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.card .card-title {
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
